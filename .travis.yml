@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+cache: pip
+before_script:
+  - easy_install distribute
+  - pip install -r requirements.txt
+script: 
+  - python test.py
