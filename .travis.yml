@@ -1,6 +1,12 @@
-language: python
-python:
-  - "3.6"
-
-script: 
-  - python test.py
+matrix:
+  include:
+    - language: c
+      sudo: false # only for faster builds
+      script:
+        - gcc -o test test.c
+        - ./test
+     - language: python
+       python:
+        - "3.6"
+       script: 
+         - python test.py
