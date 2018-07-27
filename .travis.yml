@@ -22,6 +22,8 @@ matrix:
       script: 
         - javac test.java
         - java test
+        - javac Fact.java
+        - java Fact
     - language: python
       python: 3.6
       cache: pip
