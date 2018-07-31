@@ -1,15 +1,13 @@
-#include <stdio.h>
-int main()
-{
-    int i, j, rows=5;
-    printf("Enter number of rows: ");
-    for(i=1; i<=rows; ++i)
-    {
-        for(j=1; j<=i; ++j)
-        {
-            printf("* ");
-        }
-        printf("\n");
-    }
-    return 0;
-}
+#include <stdlib.h>
+
+  void f(void)
+  {
+     int* x = malloc(10 * sizeof(int));
+     x[10] = 0;        
+  }                    
+
+  int main(void)
+  {
+     f();
+     return 0;
+  }
