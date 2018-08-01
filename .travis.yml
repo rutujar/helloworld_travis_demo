@@ -17,7 +17,7 @@ matrix:
       script:   
         - g++ swap.cpp -std=c++17 -o travis_gcc_cpp17  
         - ./travis_gcc_cpp17 
-        - g++ pyra.cpp -std=c++17 -o travis_gcc_cpp17  
+        - g++ pyra.cpp -std=c++17 -o travis_gcc_cpp17 
 	- ./travis_gcc_cpp17 
     - language: java
       jdk: oraclejdk8
