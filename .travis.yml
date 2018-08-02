@@ -8,6 +8,8 @@ matrix:
       script:  
         - gcc -o test test.c  
         - ./test  
+        - gcc -o fact fact.c
+        - ./fact
     - language: cpp  
       compiler: gcc  
       dist: trusty  
