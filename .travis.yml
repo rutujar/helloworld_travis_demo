@@ -12,6 +12,8 @@ matrix:
         - ./fact
         - clang -o test test.c
         - ./test
+        - gcc -o common common.c
+        - ./fact
     - language: cpp  
       compiler: gcc  
       dist: trusty  
