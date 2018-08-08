@@ -10,10 +10,6 @@ matrix:
         - ./test  
         - gcc -o fact fact.c
         - ./fact
-        - clang -o test test.c
-        - ./test
-        - gcc -o common common.c
-        - ./common
     - language: cpp  
       compiler: gcc  
       dist: trusty  
