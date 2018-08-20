@@ -54,4 +54,9 @@ matrix:
        - ruby-head
       notifications:
       email: false
- 
+    - language: php
+      php:
+       - 5.5
+       - 5.4
+       - hhvm
+     script: phpunit test.php
