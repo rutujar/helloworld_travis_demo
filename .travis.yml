@@ -78,4 +78,5 @@ matrix:
          fast_finish: true
       env:
         - WP_VERSION=master WP_MULTISITE=1
-      script: phpunit test.php
+      script: 
+          - phpunit test.php
