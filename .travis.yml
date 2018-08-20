@@ -42,7 +42,9 @@ matrix:
        - python fact.py
     - language: ruby
       sudo: false
-      script: ruby hello.rb
+      script: 
+       - ruby hello.rb
+       - ruby test.rb
       rvm:
        - 1.9.3
        - 2.0
