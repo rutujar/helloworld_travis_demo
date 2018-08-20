@@ -59,4 +59,4 @@ matrix:
        - 5.4
        - 5.5
        - 5.6
-      install: php vendor/vendors.php
+      install: php test/test.php
