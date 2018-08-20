@@ -56,25 +56,8 @@ matrix:
       email: false
     - language: php
       php:
-       - "7.2"
-       - "7.1"
-       - "7.0"
-       - "5.6"
-       - "5.5"
-       - "5.4"
-       - "nightly"
-      sudo: false
-      install:
-        - travis_retry composer self-update && composer --version
-  # We have to supply the branch alias here again as travis checks out a commit hash and therefore destroys the
-  # circular dependency phpcq/all-tasks -> phpcq/autoload-validation -> phpcq/all-tasks.
-        - >
-          if [ "x${TRAVIS_TAG}" != "x" ]; then
-            COMPOSER_ROOT_VERSION=${TRAVIS_TAG} travis_retry composer update --prefer-dist --no-interaction;
-          else
-            COMPOSER_ROOT_VERSION=dev-${TRAVIS_BRANCH} travis_retry composer update --prefer-dist --no-interaction;
-         fi
-      script: ant -keep-going
-      allow_failure:
-        - php: "7.0"
-        - php: "nightly"
+       - 5.2
+       - 5.3
+       - 5.4
+       - 5.5
+       - 5.6
