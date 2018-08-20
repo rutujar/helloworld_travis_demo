@@ -55,8 +55,27 @@ matrix:
       notifications:
       email: false
     - language: php
-      php:
-       - 5.5
-       - 5.4
-       - hhvm
-      
+    # Build matrix options
+      matrix:
+        include:
+          - php: 5.5
+            env: WP_TRAVISCI=travis:js
+          - php: 5.2
+            env: WP_TRAVISCI=travis:phpunit
+          - php: 5.3
+            env: WP_TRAVISCI=travis:phpunit
+          - php: 5.4
+            env: WP_TRAVISCI=travis:phpunit
+          - php: 5.5
+            env: WP_TRAVISCI=travis:phpunit
+          - php: 5.6
+            env: WP_TRAVISCI=travis:phpunit
+          - php: hhvm
+            env: WP_TRAVISCI=travis:phpunit
+         allow_failures:
+          - php: 5.6
+          - php: hhvm
+         fast_finish: true
+      env:
+        - WP_VERSION=master WP_MULTISITE=1
+      script: phpunit test.php
