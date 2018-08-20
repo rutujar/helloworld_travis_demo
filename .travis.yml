@@ -64,4 +64,4 @@ matrix:
           master
       before_install:
         - travis_retry composer self-update
-      script: phpunit --exclude-group FITS --bootstrap vendor/autoload.php tests
+      script: phpunit --exclude-group FITS --bootstrap vendor/test.php tests
