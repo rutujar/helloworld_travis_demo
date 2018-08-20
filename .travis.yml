@@ -40,3 +40,11 @@ matrix:
       script: 
        - python test.py
        - python fact.py
+    - language: ruby
+      rvm:
+       - 1.9.3
+       - 2.0.0
+       - 2.1.2
+      sudo: false
+      script: bundle exec rspec
+      bundler_args: "--without play"
