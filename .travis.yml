@@ -54,15 +54,4 @@ matrix:
        - ruby-head
       notifications:
       email: false
-    - language: php
-      php:
-       - 5.5
-       - 5.6
-       - 7.0
-      branches:
-        only:
-          master
-      before_install:
-        - travis_retry composer self-update
-      script: 
-        - phpunit
+
