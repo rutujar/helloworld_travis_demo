@@ -54,4 +54,6 @@ matrix:
        - ruby-head
       notifications:
       email: false
+    - language: csharp
+      solution: solution-name.sln
 
