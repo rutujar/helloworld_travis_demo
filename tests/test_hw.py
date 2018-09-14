@@ -47,7 +47,7 @@ if version < '3000':
     helloworld = sys.modules["helloworld"]
 else:
     # st3
-    helloworld = sys.modules["UnitTesting-example.helloworld"]
+    helloworld = sys.modules["helloworld_travis_demo.helloworld"]
 
 
 class TestFunctions(TestCase):
