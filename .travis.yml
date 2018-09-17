@@ -61,4 +61,10 @@ matrix:
       script:
        - xbuild ./Fibonacci/Fibonacci.sln
        - mono ./Fibonacci/packages/xunit.runner.console*/tools/xunit.console.exe ./Fibonacci/Fibonacci.Tests/bin/Debug/Fibonacci.Tests.dll
+    - language: node_js
+      node_js:
+       - "node"
+      env:
+       - MY_VAR=EverythignIsAwesome
+       - NODE_ENV=TEST
 
