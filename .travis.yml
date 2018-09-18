@@ -80,6 +80,6 @@ matrix:
        - 1.5.1
        - release
        - tip
-     script:
+      script:
        - go test -v ./...
 
