@@ -67,13 +67,5 @@ matrix:
       env:
        - MY_VAR=EverythignIsAwesome
        - NODE_ENV=TEST
-    - language: r
-      sudo: required
-      env: _R_CHECK_CRAN_INCOMING_=FALSE
-      r_packages:
-        - covr
-        - devtools
-    - language: go
-      go: 
-       - 1.3.3
+
  
