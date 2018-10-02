@@ -4,5 +4,5 @@
 https://codecov.io/gh/rutujar/helloworld_travis_demo/branch/master/graph/badge.svg
 
 
-.. image:: https://codecov.io/gh/codecov/helloworld_travis_demo/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/codecov/helloworld_travis_demo
+.. image:: https://codecov.io/rutujar/helloworld_travis_demo/branch/master/graph/badge.svg
+  :target: https://codecov.io/rutujar/helloworld_travis_demo
