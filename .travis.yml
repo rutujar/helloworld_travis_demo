@@ -10,6 +10,11 @@ matrix:
         - ./test  
         - gcc -o fact fact.c
         - ./fact
+    - language: go
+      go: 
+        - 1.3.3    
+      script:
+        - go test -v ./...
     - language: cpp  
       compiler: gcc  
       dist: trusty  
