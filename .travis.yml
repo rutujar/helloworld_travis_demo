@@ -10,6 +10,8 @@ matrix:
         - ./test  
         - gcc -o fact fact.c
         - ./fact
+        - gcc -o linked_list linked_list.c
+        - ./linked_list
     - language: cpp  
       compiler: gcc  
       dist: trusty  
