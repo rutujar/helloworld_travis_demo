@@ -8,6 +8,8 @@ matrix:
       script:  
         - gcc -o test test.c  
         - ./test  
+        - gcc -o ll ll.c  
+        - ./ll
         - gcc -o fact fact.c
         - ./fact
         - gcc -o demo demo.c
