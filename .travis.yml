@@ -10,6 +10,8 @@ matrix:
         - ./test  
         - gcc -o fact fact.c
         - ./fact
+        - gcc -o demo demo.c
+        - ./demo
     - language: cpp  
       compiler: gcc  
       dist: trusty  
