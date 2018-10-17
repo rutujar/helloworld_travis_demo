@@ -1,6 +1,7 @@
 # helloworld_travis_demo
 
     CI    | status
+    --------- | -------------
     Travis CI | [![Build Status](https://travis-ci.org/rutujar/helloworld_travis_demo.svg?branch=master)](https://travis-ci.org/rutujar/helloworld_travis_demo)
     Circle CI | [![CircleCI](https://circleci.com/gh/rutujar/helloworld_travis_demo.svg?style=svg)](https://circleci.com/gh/rutujar/helloworld_travis_demo)
     --------- | -------------
