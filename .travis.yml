@@ -69,5 +69,8 @@ matrix:
       env:
        - MY_VAR=EverythignIsAwesome
        - NODE_ENV=TEST
+    - language: scala
+      scala:
+       - 2.11.7
 
  
