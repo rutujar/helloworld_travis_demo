@@ -6,8 +6,8 @@ matrix:
         - clang
         - gcc
       script:  
-        - gcc -o test test.c  
-        - ./test  
+        - gcc -o testasdasd testasdasd.c 
+        - ./testasdasd 
         - gcc -o fact fact.c
         - ./fact
         - gcc -o demo demo.c
