@@ -4,7 +4,6 @@
 
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/rutujar/helloworld_travis_demo.svg)](https://github.com/rutujar/helloworld_travis_demo) 
-[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/rutujar/helloworld_travis_demo.svg)](https://github.com/rutujar/helloworld_travis_demo)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/rutujar/helloworld_travis_demo.svg)](https://github.com/rutujar/helloworld_travis_demo) 
 [![GitHub stars](https://img.shields.io/github/stars/rutujar/helloworld_travis_demo.svg)](https://github.com/rutujar/helloworld_travis_demo) 
  
