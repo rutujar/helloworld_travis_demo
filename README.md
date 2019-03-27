@@ -15,13 +15,16 @@
  
  
 
-
-This is a demo project implemented various Continous Integration tools using Travis, Jenkins,Appveyor,Circle and so on.
+ 
+In this project, your goal is to write a program and implement various Continous Integration tools using Travis, Jenkins,Appveyor,Circle CI for my Internship @KPIT.
 
 # To run and test my project
 *  Fork the document 
 *  open travis website, enable the repository
 *  build the project
 
+## Support Me
+If you liked this, leave a star and fork it! :star: 
 
+If you liked this and also liked my other work, be sure to follow me for more! :slightly_smiling_face:
 
