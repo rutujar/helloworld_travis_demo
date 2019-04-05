@@ -21,7 +21,7 @@ In this project, your goal is to write a program and implement various Continous
 
 ## DOCUMENTATION
 
-Nothing to <STRONG>INSTALL</STRONG> IT IS EASY TO USE.
+Nothing to <STRONG>INSTALL</STRONG> it is easy to use.
 
 # STEPS
 
